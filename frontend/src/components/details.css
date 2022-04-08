@@ -1,0 +1,92 @@
+.parent {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 10%;
+  padding: 20px 0;
+}
+.create {
+  max-width: 400px;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2,
+.submitted {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  float: right;
+  background: #f1356d;
+  min-width: 80px;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.radio input {
+  float: left;
+}
+.radio label {
+  float: right;
+}
+
+.question-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.radio-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 5%;
+  justify-content: flex-start;
+  margin: 5%;
+}
+
+.radio-options input {
+  width: max-content;
+}
+
+.final-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-button {
+  text-decoration: none;
+  float: right;
+  background: #f1356d;
+  min-width: 80px;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.download-button:hover {
+  color: whitesmoke;
+}
